@@ -1,0 +1,10 @@
+# Python
+venv
+__pycache__
+
+# Test coverage
+.coverage
+htmlcov
+
+# VS Code
+.vscode
