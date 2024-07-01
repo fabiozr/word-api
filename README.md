@@ -1,6 +1,6 @@
 # Word API
+Word API is a Flask-based web application that provides two endpoints for working with words based on a software testing exercise. The application is hosted on PythonAnywhere and can be accessed at https://fabiozr.pythonanywhere.com.
 
-Word API is a Flask-based web application that provides two endpoints for working with words based on a software testing exercise.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ Word API is a Flask-based web application that provides two endpoints for workin
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
+- [Deployment](#deployment)
 
 ## Installation
 
@@ -90,3 +91,7 @@ To check the test coverage, run the following command:
 coverage run -m unittest discover tests
 coverage report
 ```
+
+## Deployment
+
+The Word API is deployed to PythonAnywhere using a CI/CD pipeline. Whenever changes are pushed to the main branch, the pipeline runs linting, testing, and deployment steps using the script on `deploy_to_pythonanywhere.py` as a base. The live application can be accessed at https://fabiozr.pythonanywhere.com.
